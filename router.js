@@ -1,7 +1,6 @@
 const router = require('express').Router();
 const moment = require('moment')
 router.get('/', (req, res) => {
-    const {page, total} = res.query
     res.send({
         status : "success",
         name : "Anfal Ibrahim",
